@@ -1,0 +1,24 @@
+\selectlanguage *[numerals=cyrillic]{russian}
+\contentsline {chapter}{Введение}{5}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Анализ методов и технологий обработки рукописного наследия}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.}Анализ достоинств и недостатков алгоритмов и программных средств сегментации и классификации крюков и знамён, разработанных для Корпуса рукописного наследия Древней Руси}{6}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.}Средства сегментации крюков и знамен портала}{6}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.2.}Средства классификации крюков и знамен портала}{7}{subsection.1.1.2}%
+\contentsline {section}{\numberline {2.}Исследование правил позиционирования крюков и знамён над словами в текстах рукописей}{11}{section.1.2}%
+\contentsline {section}{\numberline {3.}Анализ подходов к формированию и представлению обучающих выборок для нейросетевых моделей}{14}{section.1.3}%
+\contentsline {section}{\numberline {4.}Выводы}{17}{section.1.4}%
+\contentsline {section}{\numberline {5.}Постановка задачи учебно исследовательской работы}{17}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Модель и алгоритмы для решения задачи сегментации и классификации крюков}{18}{chapter.2}%
+\contentsline {section}{\numberline {1.}Модификация модели представления результатов сегментации страницы с крюками и знамёнами}{18}{section.2.1}%
+\contentsline {section}{\numberline {2.}Алгоритм генерации редактируемой цифровой копии страницы с крюками и знамёнами}{19}{section.2.2}%
+\contentsline {section}{\numberline {3.}Выводы}{21}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Проектирование и разработка программных средств решения задачи сегментации и классификации крюков}{22}{chapter.3}%
+\contentsline {section}{\numberline {1.}Проектирование и разработка программных средств генерации редактируемой цифровой копии страницы с крюками и знамёнами}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {1.1.}Требования к реализации}{22}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {1.2.}Модификация модуля сегментации}{23}{subsection.3.1.2}%
+\contentsline {section}{\numberline {2.}Интеграция программных средств сегментации в портал Корпуса рукописного наследия Древней Руси}{25}{section.3.2}%
+\contentsline {section}{\numberline {3.}Выводы}{27}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Этапы формирования обучающей выборки для задачи классификации крюков и знамён}{28}{chapter.4}%
+\contentsline {section}{\numberline {1.}Подготовка обучающей выборки для нейросетевой модели распознавания крюков и знамён}{28}{section.4.1}%
+\contentsline {section}{\numberline {2.}Выводы}{32}{section.4.2}%
+\contentsline {chapter}{Заключение}{33}{chapter*.26}%

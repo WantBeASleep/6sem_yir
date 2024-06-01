@@ -60,6 +60,25 @@ def get_detected_hooks_on_image(image, masks, mask_threshold: float = 0.65, per_
             if len(symbols_found[class_name]) != 0 and abs(pt[0] - symbols_found[class_name][-1]['x']) < delta_x and abs(pt[1] - symbols_found[class_name][-1]['y']) < delta_y:
                 continue
 
+            """
+                symbols_found - {}, key := className, val := массив из структуры 74-79 строчка
+                надо в бд плюнуть в новую колонку для каждой страницы кол-во всех найденых крюков
+                total := 0
+                for _, k := range name {
+                    total += len(k)
+                }
+
+
+                в фунцию get_detected_hooks_on_image прилетает еще masks - это template массив из 
+                масок + имя класса
+            """
+            # symbols_found 
+            # total := 0
+            # for _, k := range name {
+            #   total += len(k)
+            # }
+            # DB <--- total
+ 
             symbols_found[class_name].append({
                 'x': int(pt[0]),
                 'y': int(pt[1]),
@@ -77,7 +96,7 @@ template_file_path = '/home/wantbeasleep/yirDetectKruk/masks/templates/shorttemp
  
 def main():
     templates = load_templates(template_file_path)
-    imagedir = os.path.join(os.path.dirname(__file__), 'images/*')
+    imagedir = os.path.join(os.path.dirname(__file__), 'wimages/*')
     
     pages = []
 

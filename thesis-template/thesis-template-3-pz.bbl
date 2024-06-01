@@ -1,0 +1,507 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{MGonsales}{book}{}
+      \name{author}{2}{}{%
+        {{hash=f4fe3290c56b962aac7d6d3e48e1a56d}{%
+           family={Гонсалес},
+           familyi={Г\bibinitperiod},
+           given={Р.},
+           giveni={Р\bibinitperiod}}}%
+        {{hash=7acf5096c63ec7bd6c20a9eb1abfca9d}{%
+           family={Вудс},
+           familyi={В\bibinitperiod},
+           given={Р.},
+           giveni={Р\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {Техносфера}%
+      }
+      \strng{namehash}{fa038af6fc2c06c12a82fd2eaa91ad77}
+      \strng{fullhash}{fa038af6fc2c06c12a82fd2eaa91ad77}
+      \strng{bibnamehash}{fa038af6fc2c06c12a82fd2eaa91ad77}
+      \strng{authorbibnamehash}{fa038af6fc2c06c12a82fd2eaa91ad77}
+      \strng{authornamehash}{fa038af6fc2c06c12a82fd2eaa91ad77}
+      \strng{authorfullhash}{fa038af6fc2c06c12a82fd2eaa91ad77}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Цифровая обработка изображений}
+      \field{year}{2005}
+    \endentry
+    \entry{MPrinse}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2bdeb37f29468397ef58615fc7fac4d1}{%
+           family={Принс},
+           familyi={П\bibinitperiod},
+           given={С.},
+           giveni={С\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {ДМК Пресс}%
+      }
+      \strng{namehash}{2bdeb37f29468397ef58615fc7fac4d1}
+      \strng{fullhash}{2bdeb37f29468397ef58615fc7fac4d1}
+      \strng{bibnamehash}{2bdeb37f29468397ef58615fc7fac4d1}
+      \strng{authorbibnamehash}{2bdeb37f29468397ef58615fc7fac4d1}
+      \strng{authornamehash}{2bdeb37f29468397ef58615fc7fac4d1}
+      \strng{authorfullhash}{2bdeb37f29468397ef58615fc7fac4d1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Компьютерное зрение: современные алгоритмы и технологии}
+      \field{year}{2013}
+    \endentry
+    \entry{MIsyacan}{book}{}
+      \name{author}{3}{}{%
+        {{hash=98bd4e8e5f56db34c25cb12c098a02ac}{%
+           family={Исаакян},
+           familyi={И\bibinitperiod},
+           given={С.\bibnamedelimi Л.},
+           giveni={С\bibinitperiod\bibinitdelim Л\bibinitperiod}}}%
+        {{hash=dcf38c8c0fec534af967a4afaf4c4ccd}{%
+           family={Шафер},
+           familyi={Ш\bibinitperiod},
+           given={И.\bibnamedelimi Р.},
+           giveni={И\bibinitperiod\bibinitdelim Р\bibinitperiod}}}%
+        {{hash=9a86019631d0959eddd9a65967ae2c8a}{%
+           family={Шумайлов},
+           familyi={Ш\bibinitperiod},
+           given={И.\bibnamedelimi С.},
+           giveni={И\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Санкт-Петербург}%
+      }
+      \list{publisher}{1}{%
+        {Питер}%
+      }
+      \strng{namehash}{d6cf181a8e9a37648afc4cdab9fa35f7}
+      \strng{fullhash}{d6cf181a8e9a37648afc4cdab9fa35f7}
+      \strng{bibnamehash}{d6cf181a8e9a37648afc4cdab9fa35f7}
+      \strng{authorbibnamehash}{d6cf181a8e9a37648afc4cdab9fa35f7}
+      \strng{authornamehash}{d6cf181a8e9a37648afc4cdab9fa35f7}
+      \strng{authorfullhash}{d6cf181a8e9a37648afc4cdab9fa35f7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Основы цифровой обработки сигналов и изображений}
+      \field{year}{2006}
+    \endentry
+    \entry{MSofier}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0ee8d846a48657e69505614763e97fcf}{%
+           family={Сойфер},
+           familyi={С\bibinitperiod},
+           given={В.\bibnamedelimi А.},
+           giveni={В\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {Физматлит}%
+      }
+      \strng{namehash}{0ee8d846a48657e69505614763e97fcf}
+      \strng{fullhash}{0ee8d846a48657e69505614763e97fcf}
+      \strng{bibnamehash}{0ee8d846a48657e69505614763e97fcf}
+      \strng{authorbibnamehash}{0ee8d846a48657e69505614763e97fcf}
+      \strng{authornamehash}{0ee8d846a48657e69505614763e97fcf}
+      \strng{authorfullhash}{0ee8d846a48657e69505614763e97fcf}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Методы компьютерной обработки изображений}
+      \field{year}{2003}
+    \endentry
+    \entry{MShtepa}{book}{}
+      \name{author}{1}{}{%
+        {{hash=db00c6d28543191cef2d88af0ec5e999}{%
+           family={Штепа},
+           familyi={Ш\bibinitperiod},
+           given={Д.\bibnamedelimi В.},
+           giveni={Д\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Физматлит}%
+      }
+      \strng{namehash}{db00c6d28543191cef2d88af0ec5e999}
+      \strng{fullhash}{db00c6d28543191cef2d88af0ec5e999}
+      \strng{bibnamehash}{db00c6d28543191cef2d88af0ec5e999}
+      \strng{authorbibnamehash}{db00c6d28543191cef2d88af0ec5e999}
+      \strng{authornamehash}{db00c6d28543191cef2d88af0ec5e999}
+      \strng{authorfullhash}{db00c6d28543191cef2d88af0ec5e999}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Анализ и распознавание изображений}
+      \field{year}{2010}
+    \endentry
+    \entry{MGladkikh}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b793abfc95037c0f201a4ce8ff9cd88d}{%
+           family={Гладких},
+           familyi={Г\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Новосибирск}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{b793abfc95037c0f201a4ce8ff9cd88d}
+      \strng{fullhash}{b793abfc95037c0f201a4ce8ff9cd88d}
+      \strng{bibnamehash}{b793abfc95037c0f201a4ce8ff9cd88d}
+      \strng{authorbibnamehash}{b793abfc95037c0f201a4ce8ff9cd88d}
+      \strng{authornamehash}{b793abfc95037c0f201a4ce8ff9cd88d}
+      \strng{authorfullhash}{b793abfc95037c0f201a4ce8ff9cd88d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Компьютерное зрение для анализа и распознавания символов}
+      \field{year}{2012}
+    \endentry
+    \entry{MYarovoy}{book}{}
+      \name{author}{2}{}{%
+        {{hash=498ed62351ecaf2115f4d6e428a50434}{%
+           family={Яровой},
+           familyi={Я\bibinitperiod},
+           given={В.\bibnamedelimi С.},
+           giveni={В\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+        {{hash=034a762580c20f547386eee915f47c7d}{%
+           family={Ивановский},
+           familyi={И\bibinitperiod},
+           given={Г.\bibnamedelimi О.},
+           giveni={Г\bibinitperiod\bibinitdelim О\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Техносфера}%
+      }
+      \strng{namehash}{8a4686ce058d44520a17243e2c896136}
+      \strng{fullhash}{8a4686ce058d44520a17243e2c896136}
+      \strng{bibnamehash}{8a4686ce058d44520a17243e2c896136}
+      \strng{authorbibnamehash}{8a4686ce058d44520a17243e2c896136}
+      \strng{authornamehash}{8a4686ce058d44520a17243e2c896136}
+      \strng{authorfullhash}{8a4686ce058d44520a17243e2c896136}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Информационные технологии обработки и анализа форм}
+      \field{year}{2011}
+    \endentry
+    \entry{MJHan}{book}{}
+      \name{author}{1}{}{%
+        {{hash=39c84e5678f093245bf8708c80c9a176}{%
+           family={Хан},
+           familyi={Х\bibinitperiod},
+           given={Д.},
+           giveni={Д\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {МИР}%
+      }
+      \strng{namehash}{39c84e5678f093245bf8708c80c9a176}
+      \strng{fullhash}{39c84e5678f093245bf8708c80c9a176}
+      \strng{bibnamehash}{39c84e5678f093245bf8708c80c9a176}
+      \strng{authorbibnamehash}{39c84e5678f093245bf8708c80c9a176}
+      \strng{authornamehash}{39c84e5678f093245bf8708c80c9a176}
+      \strng{authorfullhash}{39c84e5678f093245bf8708c80c9a176}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Интеллектуальный анализ данных: концепции и технологии}
+      \field{year}{2012}
+    \endentry
+    \entry{MSergeev}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c37a0dca3263f66b94f639b95899914f}{%
+           family={Сергеев},
+           familyi={С\bibinitperiod},
+           given={И.},
+           giveni={И\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {Альпина Паблишер}%
+      }
+      \strng{namehash}{c37a0dca3263f66b94f639b95899914f}
+      \strng{fullhash}{c37a0dca3263f66b94f639b95899914f}
+      \strng{bibnamehash}{c37a0dca3263f66b94f639b95899914f}
+      \strng{authorbibnamehash}{c37a0dca3263f66b94f639b95899914f}
+      \strng{authornamehash}{c37a0dca3263f66b94f639b95899914f}
+      \strng{authorfullhash}{c37a0dca3263f66b94f639b95899914f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Машинное обучение и аналитика данных}
+      \field{year}{2019}
+    \endentry
+    \entry{MIvaschenko}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f324d0582e86760ad65fe1d7b9a63ede}{%
+           family={Иващенко},
+           familyi={И\bibinitperiod},
+           given={А.},
+           giveni={А\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {Питер}%
+      }
+      \strng{namehash}{f324d0582e86760ad65fe1d7b9a63ede}
+      \strng{fullhash}{f324d0582e86760ad65fe1d7b9a63ede}
+      \strng{bibnamehash}{f324d0582e86760ad65fe1d7b9a63ede}
+      \strng{authorbibnamehash}{f324d0582e86760ad65fe1d7b9a63ede}
+      \strng{authornamehash}{f324d0582e86760ad65fe1d7b9a63ede}
+      \strng{authorfullhash}{f324d0582e86760ad65fe1d7b9a63ede}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Машинное обучение с использованием Python}
+      \field{year}{2017}
+    \endentry
+    \entry{MKurdyumov}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0e18a9bf006cb4fb465242cfc6e5b6de}{%
+           family={Курдюмов},
+           familyi={К\bibinitperiod},
+           given={С.},
+           giveni={С\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {БХВ-Петербург}%
+      }
+      \strng{namehash}{0e18a9bf006cb4fb465242cfc6e5b6de}
+      \strng{fullhash}{0e18a9bf006cb4fb465242cfc6e5b6de}
+      \strng{bibnamehash}{0e18a9bf006cb4fb465242cfc6e5b6de}
+      \strng{authorbibnamehash}{0e18a9bf006cb4fb465242cfc6e5b6de}
+      \strng{authornamehash}{0e18a9bf006cb4fb465242cfc6e5b6de}
+      \strng{authorfullhash}{0e18a9bf006cb4fb465242cfc6e5b6de}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Машинное обучение. Базовый курс}
+      \field{year}{2018}
+    \endentry
+    \entry{MKazantsev}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4952cf0dc866a1b04ab179a15b71a6e8}{%
+           family={Казанцев},
+           familyi={К\bibinitperiod},
+           given={М.},
+           giveni={М\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {Издательский дом ЯСК}%
+      }
+      \strng{namehash}{4952cf0dc866a1b04ab179a15b71a6e8}
+      \strng{fullhash}{4952cf0dc866a1b04ab179a15b71a6e8}
+      \strng{bibnamehash}{4952cf0dc866a1b04ab179a15b71a6e8}
+      \strng{authorbibnamehash}{4952cf0dc866a1b04ab179a15b71a6e8}
+      \strng{authornamehash}{4952cf0dc866a1b04ab179a15b71a6e8}
+      \strng{authorfullhash}{4952cf0dc866a1b04ab179a15b71a6e8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Знаменное пение: История и традиции русской церковной музыки}
+      \field{year}{2015}
+    \endentry
+    \entry{MGrigoriev}{book}{}
+      \name{author}{1}{}{%
+        {{hash=06f768985df6cf4826e83a8056b24dc0}{%
+           family={Григорьев},
+           familyi={Г\bibinitperiod},
+           given={Е.},
+           giveni={Е\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Рига}%
+      }
+      \list{publisher}{1}{%
+        {Рижская Гребенщиковская старообрядческая община}%
+      }
+      \strng{namehash}{06f768985df6cf4826e83a8056b24dc0}
+      \strng{fullhash}{06f768985df6cf4826e83a8056b24dc0}
+      \strng{bibnamehash}{06f768985df6cf4826e83a8056b24dc0}
+      \strng{authorbibnamehash}{06f768985df6cf4826e83a8056b24dc0}
+      \strng{authornamehash}{06f768985df6cf4826e83a8056b24dc0}
+      \strng{authorfullhash}{06f768985df6cf4826e83a8056b24dc0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Пособие по изучению церковного знаменного пения.}
+      \field{year}{1992}
+    \endentry
+    \entry{MShulgin}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c06a6a6cd58ab401f0702430449363df}{%
+           family={Шульгин},
+           familyi={Ш\bibinitperiod},
+           given={В.},
+           giveni={В\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{c06a6a6cd58ab401f0702430449363df}
+      \strng{fullhash}{c06a6a6cd58ab401f0702430449363df}
+      \strng{bibnamehash}{c06a6a6cd58ab401f0702430449363df}
+      \strng{authorbibnamehash}{c06a6a6cd58ab401f0702430449363df}
+      \strng{authornamehash}{c06a6a6cd58ab401f0702430449363df}
+      \strng{authorfullhash}{c06a6a6cd58ab401f0702430449363df}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{История русской музыки: Древнерусский период}
+      \field{year}{2010}
+    \endentry
+    \entry{MMemon}{book}{}
+      \name{author}{3}{}{%
+        {{hash=8a574e93975ff3c17755a1ca8f25eb54}{%
+           family={Memon},
+           familyi={M\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5d8b1037b1816c65a9aa8ca7fd6491f1}{%
+           family={Sami},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=447c9f3a9209df3d2130c365391bdd22}{%
+           family={D.},
+           familyi={D\bibinitperiod},
+           given={Khan\bibnamedelima U.},
+           giveni={K\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{11997946a10ec49c9acef42e451d3a7c}
+      \strng{fullhash}{11997946a10ec49c9acef42e451d3a7c}
+      \strng{bibnamehash}{11997946a10ec49c9acef42e451d3a7c}
+      \strng{authorbibnamehash}{11997946a10ec49c9acef42e451d3a7c}
+      \strng{authornamehash}{11997946a10ec49c9acef42e451d3a7c}
+      \strng{authorfullhash}{11997946a10ec49c9acef42e451d3a7c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handwritten Optical Character Recognition (OCR): A Comprehensive Systematic Literature Review (SLR)}
+      \field{year}{2022}
+    \endentry
+    \entry{MLeffinguel}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5600edd14e42a5dd40f8bd3fed98f7a9}{%
+           family={Леффингуэлл},
+           familyi={Л\bibinitperiod},
+           given={Д.},
+           giveni={Д\bibinitperiod}}}%
+        {{hash=ddce89e0f6fc007679d51cb06f85bf90}{%
+           family={Уидриг},
+           familyi={У\bibinitperiod},
+           given={Д.},
+           giveni={Д\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {Издательский дом "Вильяме"}%
+      }
+      \strng{namehash}{b0bdb943a30ec6deb6c0a08713895098}
+      \strng{fullhash}{b0bdb943a30ec6deb6c0a08713895098}
+      \strng{bibnamehash}{b0bdb943a30ec6deb6c0a08713895098}
+      \strng{authorbibnamehash}{b0bdb943a30ec6deb6c0a08713895098}
+      \strng{authornamehash}{b0bdb943a30ec6deb6c0a08713895098}
+      \strng{authorfullhash}{b0bdb943a30ec6deb6c0a08713895098}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Принципы работы с требованиями к программному обеспечению.}
+      \field{year}{2000}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

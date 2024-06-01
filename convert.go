@@ -2,38 +2,61 @@ package main
 
 import (
 	"fmt"
-	"log"
-	"os/exec"
+	"os"
 	"path/filepath"
-	// "strconv"
+
+	"golang.org/x/text/encoding/charmap"
+	"golang.org/x/text/transform"
 )
 
-// convertPDFToImages принимает путь к PDF файлу, выходной директории
-// и префикс для имен выходных файлов.
-func convertPDFToImages(pdfPath, outputDir, outputPrefix string) error {
-	// Создание команды для pdftoppm
-	cmd := exec.Command("pdftoppm", "-jpeg", pdfPath, filepath.Join(outputDir, outputPrefix))
-
-	// Выполнение команды
-	err := cmd.Run()
-	if err != nil {
-		return fmt.Errorf("ошибка при конвертации PDF в изображения: %v", err)
-	}
-	return nil
-}
-
 func main() {
-	// Параметры конвертации
-	pdfPath := "book.pdf"     // Путь к вашему PDF файлу
-	outputDir := "output_images2" // Директория для сохранения изображений
-	outputPrefix := "page_"      // Префикс для имен файлов изображений
+	// Путь к папке с HTML файлами
+	inputDir := "/home/wantbeasleep/yirDetectKruk/bukvar"
+	// Имя выходного файла
+	outputFile := "res.html"
 
-	// Конвертация PDF в изображения
-	err := convertPDFToImages(pdfPath, outputDir, outputPrefix)
+	// Открываем выходной файл для записи
+	out, err := os.Create(outputFile)
 	if err != nil {
-		log.Fatalf("Ошибка: %v", err)
+		fmt.Printf("Ошибка при создании выходного файла: %v\n", err)
+		return
+	}
+	defer out.Close()
+
+	// Проходим по всем HTML файлам в заданной папке
+	err = filepath.Walk(inputDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		// Если это не файл, пропускаем его
+		if !info.Mode().IsRegular() {
+			return nil
+		}
+		// Читаем содержимое файла
+		content, err := os.ReadFile(path)
+		if err != nil {
+			return fmt.Errorf("не удалось прочитать файл %s: %v", path, err)
+		}
+
+		// Создаем трансформер для преобразования из Windows-1251 в UTF-8
+		decoder := charmap.Windows1251.NewDecoder()
+		utf8Content, _, err := transform.String(decoder, string(content))
+		if err != nil {
+			return fmt.Errorf("не удалось преобразовать содержимое файла %s: %v", path, err)
+		}
+
+		// Пишем преобразованное содержимое в выходной файл
+		if _, err := out.WriteString(utf8Content); err != nil {
+			return fmt.Errorf("не удалось записать в выходной файл: %v", err)
+		}
+
+		fmt.Printf("Файл %s успешно обработан и добавлен\n", path)
+		return nil
+	})
+
+	if err != nil {
+		fmt.Printf("Ошибка при обработке файлов: %v\n", err)
 	}
 
-	// Печать сообщения об успешной конвертации
-	fmt.Println("PDF успешно конвертирован в изображения.")
+	fmt.Println("Все файлы успешно объединены и преобразованы!")
 }
